@@ -9,6 +9,6 @@ func ther(a int) int {
 
 func main() {
 	var i int = 12
-	println(i, ther(i))
+	println(i, ther(i)) //调用第三3行ther，然后第7行也要用同样的函数回参
 
 }
