@@ -9,6 +9,7 @@ func main() {
 
 	ys["fg"] = "法国"
 
+	//这是range范围
 	for sy := range ys {
 		fmt.Println(ys[sy])
 	}
